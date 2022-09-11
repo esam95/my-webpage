@@ -1,7 +1,7 @@
 body {
     width: 800px;
     margin: auto;
-
+    border: 2px solid black;
 }
 
 header {
@@ -40,13 +40,21 @@ li:hover {
     background-color: thistle;
 }
 
-/* #left-foot {
+#left-foot {
     text-align: left;
     font-size: 8px;
+    display: inline-block;
 }
 
 #right-foot {
-    text-align: right;
+    
     font-size: 8px;
-} */
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
 
+footer {
+    position: relative;
+    border: 2px solid salmon;
+}
