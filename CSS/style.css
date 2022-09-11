@@ -1,3 +1,52 @@
-header {
-    background-color: red;
+body {
+    width: 800px;
+    margin: auto;
+
 }
+
+header {
+    background-color: wheat;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    border: 2px solid grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: red;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: thistle;
+}
+
+.active {
+    background-color: thistle;
+}
+
+/* #left-foot {
+    text-align: left;
+    font-size: 8px;
+}
+
+#right-foot {
+    text-align: right;
+    font-size: 8px;
+} */
+
